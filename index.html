@@ -1,43 +1,243 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Poke Weather - Privacy Policy</title>
-    <style>
-        body {font-family: Arial, sans-serif; line-height: 1.6;}
-        .container {width: 80%; margin: auto; overflow: hidden;}
-        h1, h3 {color: #333;}
-        p {margin: 15px 0;}
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name - Portfolio & Resume</title>
+  <!-- Google Fonts & Font Awesome for icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <style>
+    /* Reset and Base Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      background: #f0f2f5;
+      color: #333;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    /* Header */
+    header {
+      background: #282c34;
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    /* Sections */
+    section {
+      padding: 60px 0;
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2rem;
+      color: #282c34;
+    }
+    /* About Me */
+    #about p {
+      text-align: center;
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    /* Projects */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .project-card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+    .project-card img {
+      width: 100%;
+      height: auto;
+    }
+    .project-card-content {
+      padding: 15px;
+    }
+    .project-card-content h3 {
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+      color: #282c34;
+    }
+    /* Resume */
+    #resume ul {
+      list-style-type: none;
+      margin: 20px 0;
+    }
+    #resume li {
+      margin-bottom: 10px;
+    }
+    /* Contact Form */
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .contact-form button {
+      background: #282c34;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .contact-form button:hover {
+      background: #444;
+    }
+    /* Footer */
+    footer {
+      background: #282c34;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+    footer a {
+      margin: 0 10px;
+      font-size: 1.2rem;
+    }
+  </style>
 </head>
 <body>
+  <!-- Header -->
+  <header>
     <div class="container">
-        <h1>Privacy Policy for Poke Weather</h1>
-        <p>Last updated:  15 january 2024</p>
-        
-        <h3>1. Introduction</h3>
-        <p>Welcome to Poke Weather. This privacy policy explains how we collect, use, disclose, and safeguard your information when you visit our mobile application. Please read this privacy policy carefully. IF YOU DO NOT AGREE WITH THE TERMS OF THIS PRIVACY POLICY, PLEASE DO NOT ACCESS THE APPLICATION.</p>
-
-        <h3>2. Collection of Your Information</h3>
-        <p>We may collect information about you in a variety of ways. The information we may collect via the Application includes:</p>
-        <ul>
-            <li><strong>Personal Data:</strong> Personally identifiable information, such as your name, email address, and telephone number, that you voluntarily give to us when choosing to participate in various activities related to the Application, such as online chat and account creation.</li>
-            <li><strong>Geo-Location Information:</strong> We request access to or permission to track location-based information from your mobile device, either continuously or while you are using our mobile application, to provide location-based services.</li>
-        </ul>
-
-        <h3>3. Use of Your Information</h3>
-        <p>Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the Application to:</p>
-        <ul>
-            <li>Create and manage your account.</li>
-            <li>Deliver targeted weather forecasts and other related information.</li>
-            <li>Monitor and analyze usage and trends to improve your experience with the Application.</li>
-        </ul>
-
-        <h3>4. Account Deletion and Data Retention</h3>
-        <p>Users can delete their accounts at any time. Upon deletion, all personal information associated with your account will be deleted from our servers. We retain personal information for a period of 90 days after account deletion for recovery purposes, after which it is permanently deleted.</p>
-
-        <h3>5. Contact Us</h3>
-        <p>If you have any questions or comments about this Privacy Policy, please contact us at: alixcarmo03@gmail.com</p>
+      <h1>Your Name</h1>
+      <p>Full Stack Developer | Designer | Tech Enthusiast</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm [Your Name] – a passionate developer with experience in building modern and responsive web applications. I thrive on turning creative ideas into reality and always look forward to new challenges.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <!-- Project Card Example -->
+        <div class="project-card">
+          <img src="project1-image.jpg" alt="Project 1" />
+          <div class="project-card-content">
+            <h3>Project Title 1</h3>
+            <p>A brief description of this project. Explain the technologies used and the main features.</p>
+            <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+        <!-- Project Card Example -->
+        <div class="project-card">
+          <img src="project2-image.jpg" alt="Project 2" />
+          <div class="project-card-content">
+            <h3>Project Title 2</h3>
+            <p>A brief description of this project. Highlight its unique features and technologies used.</p>
+            <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+        <!-- Add more project cards as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <div class="container">
+      <h2>Resume</h2>
+      <p>
+        I am currently <strong>[Open to new opportunities]</strong>. You can download my complete resume <a href="your_resume_link.pdf" target="_blank">here</a>.
+      </p>
+      <h3>Experience</h3>
+      <ul>
+        <li><strong>Company Name</strong> – Job Title (Year – Year)</li>
+        <li><strong>Company Name</strong> – Job Title (Year – Year)</li>
+      </ul>
+      <h3>Education</h3>
+      <ul>
+        <li><strong>University Name</strong> – Degree (Year – Year)</li>
+      </ul>
+      <!-- Add additional resume details as needed -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>If you’d like to collaborate or just say hi, feel free to drop a message.</p>
+      <div class="contact-form">
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+      <p>
+        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+        <!-- Additional social icons can be added here -->
+      </p>
+    </div>
+  </footer>
 </body>
 </html>
